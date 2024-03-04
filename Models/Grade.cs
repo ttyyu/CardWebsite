@@ -1,5 +1,6 @@
 
-namespace CardWebsite.Models;
+namespace CardWebsite.Models
+{
 
 public class Grade
 {
@@ -7,4 +8,5 @@ public class Grade
     public int Score { get; set; }
 
     public List<Collection>? Collections { get; set; }
+}
 }

@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace CardWebsite.Models
 {
@@ -7,6 +8,7 @@ namespace CardWebsite.Models
         public int SetId { get; set; }
         public string Title { get; set; }
 
+        [JsonIgnore]
         public List<Collection>? Collections { get; set; }
     }
 }
