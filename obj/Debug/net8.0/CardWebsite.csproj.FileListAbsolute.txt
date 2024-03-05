@@ -286,3 +286,4 @@
 /Users/tyrellyu/Documents/WebDevCW/CardWebsite/bin/Debug/net8.0/BouncyCastle.Cryptography.dll
 /Users/tyrellyu/Documents/WebDevCW/CardWebsite/bin/Debug/net8.0/MailKit.dll
 /Users/tyrellyu/Documents/WebDevCW/CardWebsite/bin/Debug/net8.0/MimeKit.dll
+/Users/tyrellyu/Documents/WebDevCW/CardWebsite/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
