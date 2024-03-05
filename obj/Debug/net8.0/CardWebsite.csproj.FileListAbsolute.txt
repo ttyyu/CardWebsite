@@ -283,3 +283,6 @@
 /Users/tyrellyu/Documents/WebDevCW/CardWebsite/bin/Debug/net8.0/Microsoft.Extensions.Identity.Core.dll
 /Users/tyrellyu/Documents/WebDevCW/CardWebsite/bin/Debug/net8.0/Microsoft.Extensions.Identity.Stores.dll
 /Users/tyrellyu/Documents/WebDevCW/CardWebsite/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/Users/tyrellyu/Documents/WebDevCW/CardWebsite/bin/Debug/net8.0/BouncyCastle.Cryptography.dll
+/Users/tyrellyu/Documents/WebDevCW/CardWebsite/bin/Debug/net8.0/MailKit.dll
+/Users/tyrellyu/Documents/WebDevCW/CardWebsite/bin/Debug/net8.0/MimeKit.dll

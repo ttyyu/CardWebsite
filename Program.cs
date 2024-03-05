@@ -10,10 +10,17 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
+
 builder.Services.AddDbContext<ShopContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("Connection")));
+
 builder.Services.AddIdentity<IdentityUser, IdentityRole>()
     .AddEntityFrameworkStores<ShopContext>().AddDefaultTokenProviders();
+    
+builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
+builder.Services.AddScoped<EmailService>();
+
+
 
 var app = builder.Build();
 
