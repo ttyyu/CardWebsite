@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/34bf9c30-5eea-4ecd-94a2-d3085eb16f72/resourceGroups/CardWebsite/providers/Microsoft.Web/sites/CardWebsite",
+    "appService.deploySubpath": "bin/Debug/net8.0"
+}
